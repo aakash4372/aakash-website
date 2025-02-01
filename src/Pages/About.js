@@ -114,7 +114,7 @@ const ProfileSection = () => {
 
           
           <div>
-          <Button variant="warning" href={`${process.env.PUBLIC_URL}/aakash.pdf`} target="_blank"  rel="noopener noreferrer"  className='mt-3 cv-button d-flex align-items-center'>Check Resume  {''}<TbFileCv className='file-icon'/></Button>
+          <Button variant="warning" href={`${process.env.PUBLIC_URL}/aakash-resume.pdf`} target="_blank"  rel="noopener noreferrer"  className='mt-3 cv-button d-flex align-items-center'>Check Resume  {''}<TbFileCv className='file-icon'/></Button>
           </div>
 
         </Col>

@@ -28,7 +28,7 @@ function Header() {
                 </h3>
                 <p className='content-p'>A skilled MERN Stack developer with a strong portfolio, passionate about staying updated on full-stack technologies. Collaborative and committed to building scalable, high-quality web applications, you thrive in dynamic teams. Eager to contribute creativity and bring innovative, end-to-end solutions to life.</p>
 
-                <Button variant="warning" className='mt-3 cv-button d-flex align-items-center' href={`${process.env.PUBLIC_URL}/aakash.pdf`} target="_blank"  rel="noopener noreferrer">Check Resume  {''}<TbFileCv className='file-icon'/></Button>
+                <Button variant="warning" className='mt-3 cv-button d-flex align-items-center' href={`${process.env.PUBLIC_URL}/aakash-resume.pdf`} target="_blank"  rel="noopener noreferrer">Check Resume  {''}<TbFileCv className='file-icon'/></Button>
             </div>
             
         </div>
