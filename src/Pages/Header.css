@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --font1: "Jost", serif;
+}
+.section2 {
+  height: auto !important;
+  overflow: hidden !important;
+  background-color: #fff6eb !important;
+  overflow-x: hidden !important;
+}
+.section2 .content-p{
+  font-size: 18px !important;
+}
+
+.section2 .content-1 h3 {
+  font-family: var(--font1) !important;
+  font-size: 70px !important;
+  font-weight: 700 !important;
+}
+.section2 .particleOne img {
+  width: 80px !important;
+  height: 80px !important;
+}
+.particleOne {
+  padding-left: 30px !important;
+  animation: circleicon infinite 3.3s ease-in-out !important;
+}
+@keyframes circleicon {
+  50% {
+    transform: translateY(19px) !important;
+  }
+}
+.section2 .particleTwo {
+  padding-left: 25% !important;
+  position: relative !important;
+  z-index: 1 !important;
+  animation: circleicontwo infinite 3.3s ease-in-out !important;
+}
+.section2 .particleTwo img {
+  margin-top: -35% !important;
+}
+@keyframes circleicontwo {
+  50% {
+    transform: translateY(19px) !important;
+  }
+}
+.section2 .content-1 p {
+  text-align: justify !important;
+  line-height: 2 !important;
+}
+.section2 .image-container {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.section2 .profile-picture {
+  position: relative !important;
+  z-index: 2 !important;
+  max-width: 100% !important;
+}
+
+.section2 .image-container img {
+  width: 100% !important;
+  max-width: 500px !important;
+  height: auto !important;
+  border-radius: 28% !important;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .section2 .content-1 h3 {
+    font-size: 37px !important;
+  }
+  .section2 .content-1 p {
+    font-size: 15px !important;
+    line-height: 1.9 !important;
+  }
+  .section2 .particleOne img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .section2 .image-container::before {
+    left: 150px !important;
+    width: 50% !important;
+    height: 50% !important;
+  }
+  .section2 .particleTwo {
+    padding-left: 30% !important;
+  }
+  .section2 .particleTwo img {
+    margin-top: -20% !important;
+  }
+  .section2 .cv-button{
+    font-size: 19px !important;
+  }
+}
+@media (min-width: 464px) and (max-width: 768px) {
+  .section2 .content-1 h3 {
+    font-size: 58px !important;
+  }
+  .section2 .content-1 p {
+    line-height: 2 !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .section2 .content-1 h3 {
+    font-size: 45px !important;
+  }
+  .section2 .cv-button{
+    font-size: 22px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  .section2 .image-container::before {
+    left: 60px !important;
+    width: 60% !important;
+    height: 60% !important;
+  }
+  .section2 .particleOne img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .section2 .particleOne {
+    padding-left: -50px !important;
+  }
+  @keyframes circleicon {
+    50% {
+      transform: translateY(9px) !important;
+    }
+  }
+  .section2 .particleTwo {
+    padding-left: 55% !important;
+  }
+  .section2 .particleTwo img {
+    margin-top: -40% !important;
+  }
+}
+@media (min-width: 426px) and (max-width: 607px) {
+  .section2 .image-container::before {
+    left: 90px !important;
+    width: 60% !important;
+    height: 60% !important;
+  }
+  .section2 .particleOne img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .section2 .particleOne {
+    padding-left: -50px !important;
+  }
+  @keyframes circleicon {
+    50% {
+      transform: translateY(9px) !important;
+    }
+  }
+  .section2 .particleTwo {
+    padding-left: 35% !important;
+  }
+  .section2 .particleTwo img {
+    margin-top: -30% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .section2 .image-container::before {
+    left: 70px !important;
+    width: 60% !important;
+    height: 60% !important;
+  }
+  .section2 .particleOne img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .section2 .particleOne {
+    padding-left: -50px !important;
+  }
+  @keyframes circleicon {
+    50% {
+      transform: translateY(9px) !important;
+    }
+  }
+  .section2 .particleTwo {
+    padding-left: 25% !important;
+  }
+  .section2 .particleTwo img {
+    margin-top: -40% !important;
+  }
+}
+
+.section2 .cv-button{
+  background-color: #ff6b01 !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  font-family: var(--font1) !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 25px !important;
+  margin: 4px 2px !important;
+  cursor: pointer !important;
+  position: relative !important;
+  z-index: 2 !important;
+  transition: 0.5s ease background-color !important;
+}
+.section2 .cv-button:hover{
+  background-color: hsl(25, 93%, 55%) !important;
+  color: white !important;
+}
+.section2 .cv-button .file-icon {
+  transition: transform 0.3s ease !important;
+}
+
+.section2 .cv-button:hover .file-icon {
+  transform: rotate(15deg) !important;
+}
+
+
