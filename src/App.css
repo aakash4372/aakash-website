@@ -94,27 +94,27 @@ html {
 }
 
 .image-container::before {
-  content: "" !important;
-  position: absolute !important;
-  top: 0 !important;
-  left: 170px !important;
-  width: 70% !important;
-  height: 70% !important;
-  background-image: url(../public/img/lines.png) !important;
-  background-size: cover !important;
-  background-position: center !important;
-  z-index: 1 !important;
-  animation: line-image 2.3s ease-in-out infinite !important;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 170px;
+  width: 70%;
+  height: 70%;
+  background-image: url(../public/img/lines.png);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  animation: line-image 2.3s ease-in-out infinite;
 }
 @keyframes line-image {
   0% {
-    transform: translate3d(0px, 0px, 0px) !important;
+    transform: translate3d(0px, 0px, 0px);
   }
   50% {
-    transform: translate3d(-30px, -30px, -30px) !important;
+    transform: translate3d(-30px, -30px, -30px);
   }
   100% {
-    transform: translate3d(0px, 0px, 0px) !important;
+    transform: translate3d(0px, 0px, 0px);
   }
 }
 

@@ -51,7 +51,7 @@ const cardsData = [
     tools: ['HTML','CSS','AOS'],
     year:'2024',
     link:'https://github.com/aakash4372/my_it_website',
-    projectLink: 'https://webistemaking.netlify.app'
+    projectLink: 'https://landing2-web.netlify.app'
   },
   
 ];

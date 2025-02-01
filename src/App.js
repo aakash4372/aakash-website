@@ -9,6 +9,7 @@ import CardFilter from './Pages/Project'
 import Education from './Pages/Education'
 import Footer from './Pages/Footer'
 import ScrollIndicator from './Pages/Scroll'
+import './App.css'
 
 export default function App() {
   return (

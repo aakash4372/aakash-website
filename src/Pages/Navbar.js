@@ -18,7 +18,7 @@ function Navbarsection() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="bg-body-tertiary navbar-background"
+      className="navbar-background"
       expanded={ismenuchange}
     >
       <div className="container-lg">

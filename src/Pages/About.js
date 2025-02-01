@@ -46,7 +46,7 @@ const ProfileSection = () => {
               </div>
               <div className="about-tick-text text-start">
                 <h4 className="mb-1">
-                  <CountUp start={0} end={6} duration={13.6} suffix=' +' />
+                  <CountUp start={0} end={4} duration={13.6} suffix=' +' />
                 </h4>
                 <p className='mb-0'>Complete Project</p>
               </div>
